@@ -11,3 +11,6 @@ How to run (dbt Cloud):
 - dbt run
 - dbt test
 - dbt docs generate
+
+  DBT Graph
+ <img width="1325" height="452" alt="Screenshot 2025-11-28 at 17 16 33" src="https://github.com/user-attachments/assets/35af21bb-3fb7-4e63-99c3-278bc9ee815e" />
