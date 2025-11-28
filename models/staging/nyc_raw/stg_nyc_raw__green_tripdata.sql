@@ -4,7 +4,7 @@ with source as (
 
 renamed as (
     select
-        vendorid as vendor_id,
+        VendorID as vendor_id,
         lpep_pickup_datetime as pickup_datetime,
         lpep_dropoff_datetime as dropoff_datetime,
         store_and_fwd_flag,
@@ -28,4 +28,4 @@ renamed as (
 )
 
 select * from renamed
-where vendorid is not null
+where vendor_id is not null
