@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_nyc_raw__green_tripdata
+    description: "Cleaned green taxi trips"
+    columns:
+      - name: vendor_id
+        description: "Vendor id normalized"
+        tests:
+          - not_null
+
+  - name: stg_nyc_raw__yellow_tripdata
+    description: "Cleaned yellow taxi trips"
+    columns:
+      - name: vendor_id
+        description: "Vendor id normalized"
+        tests:
+          - not_null
+
+  - name: stg_nyc_raw__dim_zones
+    description: "Staging for dim_zones"

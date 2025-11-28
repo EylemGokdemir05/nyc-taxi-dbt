@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: nyc_raw
+    description: "Raw NYC taxi datasets in BigQuery"
+    database: famous-arc-477112-p5
+    schema: nyc_raw
+    tables:
+      - name: green_tripdata
+        description: "Raw green taxi trip data"
+      - name: yellow_tripdata
+        description: "Raw yellow taxi trip data"
+      - name: fhv_tripdata
+        description: "FHV (for-hire-vehicle) raw trips"
+      - name: dim_zones
+        description: "Taxi zone lookup table"
