@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: trips_unioned
+    description: "Unioned trips from green & yellow with normalized schema"
+
+  - name: fact_trips
+    description: "Fact table for trips enriched with zone names"
+    columns:
+      - name: pickup_zone
+        description: "Pickup zone name"
+      - name: dropoff_zone
+        description: "Dropoff zone name"
